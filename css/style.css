@@ -1,0 +1,197 @@
+html {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  body {
+    max-width: 100vw;
+    background-image: url(/assets/img/Vector-group/Vector-bottom.png);
+  }
+
+.slider {
+    display: flex;
+    align-items: center;
+    width: 130vw;
+    position: absolute;
+    left: -21.55vw;
+}
+
+.div_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 39.45px;
+    height: 281.3877258300781px;
+    width: 388.8082275390625px;
+
+
+}
+
+.img_carrousel {
+    position: absolute;
+    z-index: -999999;
+}
+
+.carrousel_education {
+    position:relative;
+    
+}
+
+.carrousel_performance {
+    position: relative;
+}
+
+.carrousel_well-being {
+    position: relative;
+}
+
+.title {
+    font-family: 'Nunito';
+    color: #7723C9;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+@keyframes left {
+    0% {
+      left: -21.55vw;
+    }
+    100% {
+      left: 0vw;
+    }
+  }
+  
+  @keyframes right {
+    0% {
+      left: -21.55vw;
+    }
+    100% {
+      left: -43.1vw;
+    }
+  }
+  
+  @keyframes rightToCenter {
+    0% {
+      left: -43.1vw;
+    }
+    100% {
+      left: -21.55vw;
+    }
+  }
+  
+  @keyframes leftToCenter {
+    0% {
+      left: 0vw;
+    }
+    100% {
+      left: -21.55vw;
+    }
+  }
+  
+  @keyframes leftToRight {
+    0% {
+      left: 0vw;
+    }
+    100% {
+      left: -43.1vw;
+    }
+  }
+  
+  @keyframes rightToLeft {
+    0% {
+      left: -43.1vw;
+    }
+    100% {
+      left: 0vw;
+    }
+  }
+  
+
+
+   /* html {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  body {
+    max-width: 100vw;
+  }
+  .slider {
+    display: flex;
+    margin: 2.5em 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 130vw;
+    position: absolute;
+    left: -15vw;
+    background-color: orange;
+  }
+  
+  .mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    position: relative;
+  }
+  
+  .two {
+    background-color: red;
+  }
+  
+  @keyframes left {
+    0% {
+      left: -15vw;
+    }
+    100% {
+      left: 0vw;
+    }
+  }
+  
+  @keyframes right {
+    0% {
+      left: -15vw;
+    }
+    100% {
+      left: -30vw;
+    }
+  }
+  
+  @keyframes rightToCenter {
+    0% {
+      left: -30vw;
+    }
+    100% {
+      left: -15vw;
+    }
+  }
+  
+  @keyframes leftToCenter {
+    0% {
+      left: 0vw;
+    }
+    100% {
+      left: -15vw;
+    }
+  }
+  
+  @keyframes leftToRight {
+    0% {
+      left: 0vw;
+    }
+    100% {
+      left: -30vw;
+    }
+  }
+  
+  @keyframes rightToLeft {
+    0% {
+      left: -30vw;
+    }
+    100% {
+      left: 0vw;
+    }
+  }
+   */
