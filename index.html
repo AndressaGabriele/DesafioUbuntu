@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap" rel="stylesheet">
     <script defer src="./js/main.js"></script>
 </head>
 <body class="body"> 
         <h1 class="title">Conheça mais sobre o resultado</h1>
     <div id="mainContainer">
     <main id="slider" class="slider">
-        <section id="first" class="carrousel_well-being">
+        <section id="first" class="first">
             <img src="/assets/img/Vector-group/Vector 5-3.png" alt="" class="img_carrousel">
             <div class="div_text">
             <img src="./assets/img/Icons-carrousel/Icon-well-being.png" alt="">
@@ -28,7 +31,7 @@
             <img src="/assets/img/Vector-group/Vector 5-3.png" alt="" class="img_carrousel">
             <div class="div_text">
             <img src="./assets/img/Icons-carrousel/Icon-education.png" alt="">
-            <p class="education_title">Educação e performance</p>
+            <p class="title_card">Educação e performance</p>
             <li class="education_text">Memoria operacional</li>
             <li class="education_text">Tempo de reação a estímulos</li>
             <li class="education_text">Raciocínio lógico</li>
@@ -42,7 +45,7 @@
             <img src="/assets/img/Vector-group/Vector 5-3.png" alt="" class="img_carrousel">
             <div class="div_text">
             <img src="./assets/img/Icons-carrousel/Icon-performance.png" alt="">
-            <p>Comportamento e personalidade</p>
+            <p class="title_card">Comportamento e personalidade</p>
             <li>Comportamento antisocial</li>
             <li>Comportamento de risco</li>
             <li>Instabilidade emocional (neuroticismo)</li>
@@ -52,7 +55,7 @@
             <img src="/assets/img/Vector-group/Vector 5-3.png" alt="" class="img_carrousel">
             <div class="div_text">
             <img src="./assets/img/Icons-carrousel/Icon-well-being.png" alt="">
-            <p>Bem-estar / qualidade de vida</p>
+            <p class="title_card">Bem-estar / qualidade de vida</p>
             <li>Cronótipo</li>
             <li>Insonia</li>
             </div>
@@ -61,7 +64,7 @@
             <img src="/assets/img/Vector-group/Vector 5-3.png" alt="" class="img_carrousel">
             <div class="div_text">
             <img src="./assets/img/Icons-carrousel/Icon-education.png" alt="">
-            <p class="education_title">Educação e performance</p>
+            <p  class="title_card">Educação e performance</p>
             <li class="education_text">Memoria operacional</li>
             <li class="education_text">Tempo de reação a estímulos</li>
             <li class="education_text">Raciocínio lógico</li>
@@ -73,9 +76,9 @@
         </section>
     </main>
     <div class="btnBox">
-        <button id="left"><</button>
-        <button id="center">o</button>
-        <button id="right">></button>
+        <button class="btn" id="left"></button>
+        <button class="btn active" id="center"></button>
+        <button class="btn" id="right"></button>
       </div>
 </div>
 
