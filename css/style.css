@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     width: 100vw;
     max-width: 100vw;
@@ -8,12 +14,23 @@ html {
     background-image: url(/assets/img/Vector-group/Vector-bottom.png);
   }
 
+  .title{
+    color: #7723C9;
+    text-align: center;
+    font-family: 'Nunito';
+    margin-top: 94px;
+    font-size: 50px;
+    height: 168px;
+    top: 94px;
+    left: 228px;
+  }
+
 .slider {
     display: flex;
     align-items: center;
     width: 130vw;
     position: absolute;
-    left: -21.55vw;
+    left: -21.5vw;
 }
 
 .div_text {
@@ -25,7 +42,6 @@ html {
     height: 281.3877258300781px;
     width: 388.8082275390625px;
 
-
 }
 
 .img_carrousel {
@@ -33,30 +49,38 @@ html {
     z-index: -999999;
 }
 
-.carrousel_education {
+.one {
     position:relative;
     
 }
 
-.carrousel_performance {
+.two {
     position: relative;
 }
 
-.carrousel_well-being {
+.three {
     position: relative;
 }
 
-.title {
-    font-family: 'Nunito';
-    color: #7723C9;
-    font-style: normal;
-    font-size: 30px;
-    text-align: center;
+.five {
+    position: relative;
 }
+
+.btnBox {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999999999;
+    /* position: fixed; */
+    bottom: 15vh;
+    position: absolute;
+  }
 
 @keyframes left {
     0% {
-      left: -21.55vw;
+      left: -21.5vw;
     }
     100% {
       left: 0vw;
@@ -65,19 +89,19 @@ html {
   
   @keyframes right {
     0% {
-      left: -21.55vw;
+      left: -21.5vw;
     }
     100% {
-      left: -43.1vw;
+      left: -43vw;
     }
   }
   
   @keyframes rightToCenter {
     0% {
-      left: -43.1vw;
+      left: -43vw;
     }
     100% {
-      left: -21.55vw;
+      left: -21.5vw;
     }
   }
   
@@ -86,7 +110,7 @@ html {
       left: 0vw;
     }
     100% {
-      left: -21.55vw;
+      left: -21.5vw;
     }
   }
   
@@ -95,103 +119,16 @@ html {
       left: 0vw;
     }
     100% {
-      left: -43.1vw;
+      left: -43vw;
     }
   }
   
   @keyframes rightToLeft {
     0% {
-      left: -43.1vw;
+      left: -43vw;
     }
     100% {
       left: 0vw;
     }
   }
   
-
-
-   /* html {
-    width: 100vw;
-    max-width: 100vw;
-    overflow-x: hidden;
-  }
-  body {
-    max-width: 100vw;
-  }
-  .slider {
-    display: flex;
-    margin: 2.5em 0;
-    justify-content: space-between;
-    align-items: center;
-    width: 130vw;
-    position: absolute;
-    left: -15vw;
-    background-color: orange;
-  }
-  
-  .mainContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100vw;
-    position: relative;
-  }
-  
-  .two {
-    background-color: red;
-  }
-  
-  @keyframes left {
-    0% {
-      left: -15vw;
-    }
-    100% {
-      left: 0vw;
-    }
-  }
-  
-  @keyframes right {
-    0% {
-      left: -15vw;
-    }
-    100% {
-      left: -30vw;
-    }
-  }
-  
-  @keyframes rightToCenter {
-    0% {
-      left: -30vw;
-    }
-    100% {
-      left: -15vw;
-    }
-  }
-  
-  @keyframes leftToCenter {
-    0% {
-      left: 0vw;
-    }
-    100% {
-      left: -15vw;
-    }
-  }
-  
-  @keyframes leftToRight {
-    0% {
-      left: 0vw;
-    }
-    100% {
-      left: -30vw;
-    }
-  }
-  
-  @keyframes rightToLeft {
-    0% {
-      left: -30vw;
-    }
-    100% {
-      left: 0vw;
-    }
-  }
-   */
