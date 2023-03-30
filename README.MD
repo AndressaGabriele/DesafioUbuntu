@@ -1,4 +1,5 @@
 # Desafio Ubuntu
+[link para demo](https://desafio-ubuntu.vercel.app) 
 ---
 
 ![Imagem do aplicativo](/assets/readmeAssets/app.png) 
@@ -6,7 +7,7 @@
 ## Descrição
 
 Aplicativo para candidatura do Processo seletivo Ubuntu GenTech a onde foi necessario desenvolver um slider (carrousel) com todas as informações que a Ubuntu entrega no seu resultado genético (figma). 
-Vaga referente a Front End Jr, onde foi dado 72Horas para entrega do projeto que possui os sequintes requerimentos:
+Vaga referente a Front End Jr, onde foi dado 72Horas para entrega do projeto que possui os seguintes requerimentos:
 
 - [x] O candidato deverá criar o código sem uso de bibliotecas ou frameworks, apenas com HTML, CSS e JS.
 - [x] O prazo de entrega é até o dia 31/03/23, sexta-feira.
@@ -23,6 +24,7 @@ Vaga referente a Front End Jr, onde foi dado 72Horas para entrega do projeto que
 - Auditoria Chrome LightHouse
 - Git e Github
 - Figma
+- Vercel
 
 ## Dificuldades 
 
@@ -36,7 +38,7 @@ Vaga referente a Front End Jr, onde foi dado 72Horas para entrega do projeto que
 2. Pesquisei formas de utilizar propriedades do background, exemplos: 
 `background-position-y`
 `background-position-x`
-3. Para a entrega de uma responsividade perfeita, seria necessario mais tempo de execução, como o requisito solicitado foi o desktop, optei por focar 100% nele, mas como opção tomei algumas medidas para proporcionar outros diferenciais para a Ubuntu, segue abaixo:
+3. Para a entrega de uma responsividade perfeita, seria necessário mais tempo de execução, como o requisito solicitado foi o desktop, optei por focar 100% nele, mas como opção tomei algumas medidas para proporcionar outros diferenciais para a Ubuntu, segue abaixo:
 
 ## Diferenciais complementares
 
@@ -52,4 +54,7 @@ Vaga referente a Front End Jr, onde foi dado 72Horas para entrega do projeto que
 
 ![Imagem do validador do CSS](/assets/readmeAssets/lighthouse.png)
 
- 
+- Implementação do deploy: Como opção também fiz um deploy do site utilizando a plataforma vercel
+---
+
+> Agradeço desde ja a todos pela oportunidade proporcionada, foi um imenso prazer fazer parte desse desafio é de grande aprendizado, espero falar com vocês em breve.
