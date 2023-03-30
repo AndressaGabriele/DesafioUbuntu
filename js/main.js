@@ -35,7 +35,7 @@ const changeOrder = (e) => {
         slider.style.animationDuration = "1s";
       }
       trackPosition = 2;
-      return (slider.style.left = "-18%");
+      return (slider.style.left = "-22.5%");
     }
     case "right":
       rightBtn.classList.add("active")
@@ -45,12 +45,12 @@ const changeOrder = (e) => {
         slider.style.animationName = "leftToRight";
         slider.style.animationDuration = "0.5s";
         trackPosition = 3;
-        return (slider.style.left = "-36%");
+        return (slider.style.left = "-45%");
       }
       trackPosition = 3;
       slider.style.animationName = "right";
       slider.style.animationDuration = "1s";
-      return (slider.style.left = "-36%");
+      return (slider.style.left = "-45%");
   }
 };
 
