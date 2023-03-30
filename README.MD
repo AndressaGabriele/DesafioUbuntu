@@ -1,6 +1,8 @@
 # Desafio Ubuntu
 ---
 
+![Imagem do aplicativo](/assets/readmeAssets/app.png) 
+
 ## Descrição
 
 Aplicativo para candidatura do Processo seletivo Ubuntu GenTech a onde foi necessario desenvolver um slider (carrousel) com todas as informações que a Ubuntu entrega no seu resultado genético (figma). 
