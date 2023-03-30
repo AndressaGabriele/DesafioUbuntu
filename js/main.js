@@ -16,12 +16,12 @@ const changeOrder = (e) => {
         slider.style.animationName = "rightToLeft";
         slider.style.animationDuration = "0.5s";
         trackPosition = 1;
-        return (slider.style.left = "0vw");
+        return (slider.style.left = "0");
       }
       trackPosition = 1;
       slider.style.animationName = "left";
       slider.style.animationDuration = "1s";
-      return (slider.style.left = "0px");
+      return (slider.style.left = "0");
 
     case "center": {
       centerBtn.classList.add("active")
@@ -35,7 +35,7 @@ const changeOrder = (e) => {
         slider.style.animationDuration = "1s";
       }
       trackPosition = 2;
-      return (slider.style.left = "-18vw");
+      return (slider.style.left = "-18%");
     }
     case "right":
       rightBtn.classList.add("active")
@@ -45,12 +45,12 @@ const changeOrder = (e) => {
         slider.style.animationName = "leftToRight";
         slider.style.animationDuration = "0.5s";
         trackPosition = 3;
-        return (slider.style.left = "-36vw");
+        return (slider.style.left = "-36%");
       }
       trackPosition = 3;
       slider.style.animationName = "right";
       slider.style.animationDuration = "1s";
-      return (slider.style.left = "-36vw");
+      return (slider.style.left = "-36%");
   }
 };
 
