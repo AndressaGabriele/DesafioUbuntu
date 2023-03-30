@@ -41,5 +41,15 @@ Vaga referente a Front End Jr, onde foi dado 72Horas para entrega do projeto que
 ## Diferenciais complementares
 
 - W3C Validação do CSS: Para garantir que o Style esteja de acordo com os bestPractice, utilizei este sistema padrão, a onde o mesmo verifica se existe aviso ou erros, retornando um resultado, que neste caso foi excelent.
+
+![Imagem do validador do CSS](/assets/readmeAssets/css.png)
+
 - W3C Validação do HTML: Assim como foi feito o do CSS, também fiz o do HTML, garantindo assim, um código semântico, acessível para os usuarios portadores de deficiências, retornando um resultado, que neste caso foi excelent.
+
+![Imagem do validador do CSS](/assets/readmeAssets/html.png)
+
 - Auditoria Chrome LightHouse: Auditoria do codigo, a onde ele testa o site, para perfomance, accessibility, bestPractice e SEO, retornando pontuação de 0 a 100, neste caso o resultado obtido de todas as revisões foi 100%.
+
+![Imagem do validador do CSS](/assets/readmeAssets/lighthouse.png)
+
+ 
