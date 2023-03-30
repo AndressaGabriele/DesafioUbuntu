@@ -3,7 +3,8 @@
 
 ## Descrição
 
-Aplicativo para candidatura do Processo seletivo Ubuntu GenTech ref a vaga Front End Jr, a onde eu tive 72Horas para entregar o projeto que possui os sequintes requerimentos:
+Aplicativo para candidatura do Processo seletivo Ubuntu GenTech a onde foi necessario desenvolver um slider (carrousel) com todas as informações que a Ubuntu entrega no seu resultado genético (figma). 
+Vaga referente a Front End Jr, onde foi dado 72Horas para entrega do projeto que possui os sequintes requerimentos:
 
 - [x] O candidato deverá criar o código sem uso de bibliotecas ou frameworks, apenas com HTML, CSS e JS.
 - [x] O prazo de entrega é até o dia 31/03/23, sexta-feira.
@@ -19,7 +20,24 @@ Aplicativo para candidatura do Processo seletivo Ubuntu GenTech ref a vaga Front
 - W3C Validação do HTML
 - Auditoria Chrome LightHouse
 - Git e Github
+- Figma
 
 ## Dificuldades 
 
-1. Organização dos ASSETS do figma.
+1. Organização dos ASSETS do figma;
+2. Background e suas posições;
+3. Responsividade;
+
+## Soluções
+
+1. Obter o background por inteiro;
+2. Pesquisei formas de utilizar propriedades do background, exemplos: 
+`background-position-y`
+`background-position-x`
+3. Para a entrega de uma responsividade perfeita, seria necessario mais tempo de execução, como o requisito solicitado foi o desktop, optei por focar 100% nele, mas como opção tomei algumas medidas para proporcionar outros diferenciais para a Ubuntu, segue abaixo:
+
+## Diferenciais complementares
+
+- W3C Validação do CSS: Para garantir que o Style esteja de acordo com os bestPractice, utilizei este sistema padrão, a onde o mesmo verifica se existe aviso ou erros, retornando um resultado, que neste caso foi excelent.
+- W3C Validação do HTML: Assim como foi feito o do CSS, também fiz o do HTML, garantindo assim, um código semântico, acessível para os usuarios portadores de deficiências, retornando um resultado, que neste caso foi excelent.
+- Auditoria Chrome LightHouse: Auditoria do codigo, a onde ele testa o site, para perfomance, accessibility, bestPractice e SEO, retornando pontuação de 0 a 100, neste caso o resultado obtido de todas as revisões foi 100%.
