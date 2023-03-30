@@ -1,59 +1,67 @@
+// Trazendo os elementos do HTML
 const leftBtn = document.getElementById("left");
 const centerBtn = document.getElementById("center");
 const rightBtn = document.getElementById("right");
 const slider = document.getElementById("slider");
 
+// Resetando a classe ativa dos botões
+const resetClassActive = () => {
+  leftBtn.classList.remove("active")
+  rightBtn.classList.remove("active")
+  centerBtn.classList.remove("active")
+}
+
+// Animação dinamica do Slider
+const configAnimation = (nomeAnim, duracao) => {
+  slider.style.animationName = nomeAnim
+  slider.style.animationDuration = duracao
+}
+
+// Rastreamento da posição atual do slider
 let trackPosition = 2;
 
+// Responsavel por alterar a posição
 const changeOrder = (e) => {
   let direction = e.target.id;
   switch (direction) {
     case "left":
+      resetClassActive()
       leftBtn.classList.add("active")
-      rightBtn.classList.remove("active")
-      centerBtn.classList.remove("active")
       if (trackPosition === 3) {
-        slider.style.animationName = "rightToLeft";
-        slider.style.animationDuration = "0.5s";
+        configAnimation("rightToLeft", "0.5s")
         trackPosition = 1;
         return (slider.style.left = "0");
       }
       trackPosition = 1;
-      slider.style.animationName = "left";
-      slider.style.animationDuration = "1s";
+      configAnimation("left", "1s")
       return (slider.style.left = "0");
 
     case "center": {
+      resetClassActive()
       centerBtn.classList.add("active")
-      leftBtn.classList.remove("active")
-      rightBtn.classList.remove("active")
       if (trackPosition > 2) {
-        slider.style.animationName = "rightToCenter";
-        slider.style.animationDuration = "1s";
+        configAnimation("rightToCenter", "1s")
       } else if (trackPosition < 2) {
-        slider.style.animationName = "leftToCenter";
-        slider.style.animationDuration = "1s";
+        configAnimation("leftToCenter", "1s")
       }
       trackPosition = 2;
       return (slider.style.left = "-22.5%");
     }
     case "right":
+      resetClassActive()
       rightBtn.classList.add("active")
-      centerBtn.classList.remove("active")
-      leftBtn.classList.remove("active")
       if (trackPosition === 1) {
-        slider.style.animationName = "leftToRight";
-        slider.style.animationDuration = "0.5s";
+        configAnimation("leftToRight", "0.5s")
         trackPosition = 3;
         return (slider.style.left = "-45%");
       }
       trackPosition = 3;
-      slider.style.animationName = "right";
-      slider.style.animationDuration = "1s";
+      configAnimation("right", "1s")
       return (slider.style.left = "-45%");
   }
 };
 
+// EventListener de cada botão
 leftBtn.addEventListener("click", changeOrder);
 centerBtn.addEventListener("click", changeOrder);
 rightBtn.addEventListener("click", changeOrder);

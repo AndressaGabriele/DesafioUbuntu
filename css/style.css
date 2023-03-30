@@ -13,14 +13,14 @@ html {
     font-size: 62.5%;
   }
 
-
 body {
     max-width: 100vw;
+    width: 100vw;
     position: relative;
     background: #FFFFFF;
     background-image: url("../assets/img/Vector-group/Vector-bottom.png");
     background-position-y: -3em;
-    background-position-x: -0.8em ;
+    background-position-x: -0.8em;
   }
 
 .header {
@@ -31,43 +31,40 @@ body {
     height: 27em;
 }
 
-.title{
+.title {
     color: #7723C9;
     text-align: center;
     font-size: 5.9em;
     width: 44%;
     font-weight: 800;
     line-height: 64px;
-    
-    
   }
 
 .slider {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 136%; */
     width: 145%;
     position: absolute;
-    /* left: -18%; */
     left: -22.5%;
-
 }
 
-.title_card {
-    font-weight: 900;
-    font-size: 1.2em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase;
-    color: #7723C9;
+/* Icons */
+
+.hat {
+    width: 5.3em;
+    height: 4em;
+}
+.camera {
+    width: 6.7em;
+    height: 6.4em;
+}
+.brain {
+    width: 5em;
+    height: 5em;
 }
 
-li {
-    font-family: nunito, sans-serif;
-    font-weight: 400;
-    font-size: 1.2em;
-}
+/* Card */
 
 .div_text {
     display: flex;
@@ -82,22 +79,28 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
-
 }
 
-/* Icons */
+.title_card {
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    color: #7723C9;
+}
 
-.hat {
-    width: 5em;
-    height: 4em;
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.camera {
-    width: 6.7em;
-    height: 6.4em;
-}
-.brain {
-    width: 5em;
-    height: 5em;
+
+li {
+    font-family: nunito, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
 }
 
 /* Botão */
@@ -155,7 +158,6 @@ li {
 
 @keyframes left {
     0% {
-      left: -18%;
       left: -22.5%;
     }
     100% {
@@ -165,22 +167,18 @@ li {
   
   @keyframes right {
     0% {
-      left: -18%;
       left: -22.5%;
     }
     100% {
-      left: -36%;
       left: -45%;
     }
   }
   
   @keyframes rightToCenter {
     0% {
-      left: -36%;
       left: -45%;
     }
     100% {
-      left: -18%;
       left: -22.5%;
     }
   }
@@ -190,7 +188,6 @@ li {
       left: 0;
     }
     100% {
-      left: -18%;
       left: -22.5%;
     }
   }
@@ -200,14 +197,12 @@ li {
       left: 0;
     }
     100% {
-      left: -36%;
       left: -45%;
     }
   }
   
   @keyframes rightToLeft {
     0% {
-      left: -36%;
       left: -45%;
     }
     100% {
